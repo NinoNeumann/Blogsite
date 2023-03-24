@@ -18,13 +18,37 @@ var text_color = [
     "linear-gradient(to right, #003973, #e5e5be)",
     "linear-gradient(to right, #ede574, #e1f5c4)",
     "linear-gradient(to right, #ff6e7f, #bfe9ff)",
-    "linear-gradient(to right, #076585, #fff)"
+    "linear-gradient(to right, #076585, #fff)",
+    "linear-gradient(to right, #614385, #516395)",
+    "linear-gradient(to right, #9796f0, #fbc7d4)"
 ];
+/*
+* 1
+* 2
+* 3
+* sky
+* 4
+* Anamnisar
+* */
 
 var tcindex = Math.floor(Math.random()*text_color.length);
-document.getElementById("subtitle").style.background = text_color[tcindex];
-document.getElementById("site-title").style.background = text_color[tcindex];
-document.getElementsByClassName("site-name")[0].style.background = text_color[tcindex];
+var subtitle_element = document.getElementById("subtitle");
+var site_title_element = document.getElementById("site-title");
+var post_element = document.getElementsByClassName("post-title")[0];
+var site_name = document.getElementsByClassName("site-name")[0];
+
+if(subtitle_element!=null){
+    subtitle_element.style.background = text_color[tcindex];
+}
+if(site_title_element!=null){
+    site_title_element.style.background = text_color[tcindex];
+}
+if(post_element!=null){
+    post_element.style.background = text_color[tcindex];
+}
+if(site_name!=null){
+    site_name.style.background = text_color[tcindex];
+}
 
 
 
