@@ -5,7 +5,8 @@ var backimg =[
     "url(https://resource.ninoneumann.cn/blog_background_img/68977253_p0_master1200.jpg)",
     "url(https://resource.ninoneumann.cn/blog_background_img/74078288_p0_master1200.jpg)",
     "url(https://resource.ninoneumann.cn/blog_background_img/84603466_p0_master1200.jpg)",
-    "url(https://resource.ninoneumann.cn/blog_background_img/93596331_p0_master1200.jpg)"
+    "url(https://resource.ninoneumann.cn/blog_background_img/93596331_p0_master1200.jpg)",
+    "url(https://resource.ninoneumann.cn/blog_background_img/101454734_p0.jpg)"
 ];
 //获取背景图片总数，生成随机数
 var bgindex =Math.floor(Math.random() * backimg.length);
